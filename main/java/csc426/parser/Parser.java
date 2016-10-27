@@ -9,8 +9,10 @@ import java.util.List;
 import csc426.ast.*;
 
 /**
+ *
  * A, re-written, parser using recursive-descent for the entire Yasl language
- * Including the addition of logging error messages
+ * Including the addition of logging error messages.
+ *
  */
 public class Parser {
 	private static final EnumSet<TokenType> FIRST_FACTOR = EnumSet.of(NUM, ID, TRUE, FALSE, MINUS, NOT, LPAREN);

@@ -3,6 +3,13 @@ package csc426.parser;
 import java.util.HashMap;
 import java.util.Map;
 
+
+/**
+ *
+ * Combined all those state classes into one enum class here.
+ * Cleans up file system and is easier to follow.
+ *
+ */
 enum State {
 	INITIAL_STATE, IDENT_STATE, NUM_STATE, EQUAL_STATE, LESS_STATE, GREATER_STATE, QUOTE_STATE, QUOTE2_STATE, SLASH_STATE, SLASH2_STATE, BRACE_STATE, FINAL_STATE;
 
@@ -60,6 +67,7 @@ enum State {
 	}
 
 	/**
+     *
 	 * Find the next state based on the given state and the current
 	 * character of the source.
 	 *
