@@ -4,13 +4,6 @@ package csc426.parser;
 public class Token {
 	/**
 	 * Construct a Token object given its components.
-	 * 
-	 * @param position
-	 *            the source position where the token started
-	 * @param type
-	 *            the TokenType of the token
-	 * @param lexeme
-	 *            the string value of the token
 	 */
 	public Token(Position position, TokenType type, String lexeme) {
 		this.position = position;

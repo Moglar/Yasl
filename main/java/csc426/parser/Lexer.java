@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.Reader;
 
 /**
- * A Lexical Analyzer for full YASL. Uses a (Mealy) state machine to
+ * A Lexical Analyzer for YASL. Uses a (Mealy) state machine to
  * extract the next available token from the input each time next() is called.
  */
 public class Lexer {
