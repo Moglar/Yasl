@@ -189,7 +189,7 @@ public class Parser {
     /**
      *
      * Bottom of very important branch. Parses a single statement.
-     * Gives rules/order of operations, to do so.
+     * Gives rules/order of operations for parsing.
      * Building block for rest of Parser.
      *
      */
