@@ -37,7 +37,7 @@ public class Project {
 			parser.parseProgram();
 
 			if (!(log.nonEmpty())) {
-                output.print("Correctly parsed Yasl src file!!");
+                output.print("Correctly parsed Yasl src file!");
 			}
 		} catch (IOException e) {
 			log.add(e.getMessage());
